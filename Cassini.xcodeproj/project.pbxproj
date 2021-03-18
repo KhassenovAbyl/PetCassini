@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EC39D849260384EE009DD612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D848260384EE009DD612 /* AppDelegate.swift */; };
 		EC39D84B260384EE009DD612 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D84A260384EE009DD612 /* SceneDelegate.swift */; };
-		EC39D84D260384EE009DD612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D84C260384EE009DD612 /* ViewController.swift */; };
 		EC39D850260384EE009DD612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC39D84E260384EE009DD612 /* Main.storyboard */; };
 		EC39D852260384F1009DD612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC39D851260384F1009DD612 /* Assets.xcassets */; };
 		EC39D855260384F1009DD612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC39D853260384F1009DD612 /* LaunchScreen.storyboard */; };
+		EC39D8602603859C009DD612 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D85F2603859C009DD612 /* ImageViewController.swift */; };
+		EC39D86726039250009DD612 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39D86626039250009DD612 /* DemoURLs.swift */; };
+		EC39D86B26039616009DD612 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC39D86A26039616009DD612 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC39D845260384EE009DD612 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC39D848260384EE009DD612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC39D84A260384EE009DD612 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC39D84C260384EE009DD612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC39D84F260384EE009DD612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC39D851260384F1009DD612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC39D854260384F1009DD612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC39D856260384F1009DD612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC39D85F2603859C009DD612 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EC39D86626039250009DD612 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		EC39D86A26039616009DD612 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oval.jpg; path = ../../../oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		EC39D847260384EE009DD612 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				EC39D848260384EE009DD612 /* AppDelegate.swift */,
-				EC39D84A260384EE009DD612 /* SceneDelegate.swift */,
-				EC39D84C260384EE009DD612 /* ViewController.swift */,
+				EC39D85F2603859C009DD612 /* ImageViewController.swift */,
 				EC39D84E260384EE009DD612 /* Main.storyboard */,
-				EC39D851260384F1009DD612 /* Assets.xcassets */,
-				EC39D853260384F1009DD612 /* LaunchScreen.storyboard */,
+				EC39D86A26039616009DD612 /* oval.jpg */,
+				EC39D85D26038520009DD612 /* Supporting Files */,
 				EC39D856260384F1009DD612 /* Info.plist */,
+				EC39D86626039250009DD612 /* DemoURLs.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		EC39D85D26038520009DD612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC39D848260384EE009DD612 /* AppDelegate.swift */,
+				EC39D84A260384EE009DD612 /* SceneDelegate.swift */,
+				EC39D851260384F1009DD612 /* Assets.xcassets */,
+				EC39D853260384F1009DD612 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC39D855260384F1009DD612 /* LaunchScreen.storyboard in Resources */,
+				EC39D86B26039616009DD612 /* oval.jpg in Resources */,
 				EC39D852260384F1009DD612 /* Assets.xcassets in Resources */,
 				EC39D850260384EE009DD612 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC39D84D260384EE009DD612 /* ViewController.swift in Sources */,
+				EC39D86726039250009DD612 /* DemoURLs.swift in Sources */,
 				EC39D849260384EE009DD612 /* AppDelegate.swift in Sources */,
+				EC39D8602603859C009DD612 /* ImageViewController.swift in Sources */,
 				EC39D84B260384EE009DD612 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
